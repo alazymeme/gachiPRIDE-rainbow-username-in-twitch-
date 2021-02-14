@@ -39,9 +39,6 @@ def commands():
         chat = sock.recv(1024).decode('utf -8', errors='replace')  # socket data (chat)
         print(chat)
 
-        if "abc123" in chat:
-            sendRaw("PRIVMSG #turtoise TriHard")
-
         if "PING" in chat:
             sendRaw("PONG")  # This keeps the bot alive  when  twitch sends PING a bot needs to send PONG back.
 
