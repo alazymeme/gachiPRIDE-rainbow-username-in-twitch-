@@ -21,8 +21,7 @@ def information():
     sendRaw('CAP REQ :twitch.tv/commands')
     sendRaw('CAP REQ :twitch.tv/tags')
     # joins a channel
-    sendRaw('JOIN #turtlelurk')  # channel you would like to join (turtoise at default), for you not to break the developer tos you need to only join channels you have permission to join.
-    sendRaw('PRIVMSG #turtlelurk TriHard')
+    sendRaw('JOIN #turtoise')  # channel you would like to join (turtoise at default), for you not to break the developer tos you need to only join channels you have permission to join.
 
 
 def GACHI_PRIDE():
