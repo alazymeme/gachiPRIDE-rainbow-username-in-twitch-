@@ -30,7 +30,6 @@ def GACHI_PRIDE():
         random_number = random.randint(0, 16777215)
         hex_number = str(hex(random_number))
         sendRaw('PRIVMSG #turtoise :/color  #' + hex_number[2:])
-        sendRaw('PRIVMSG #turtoise :/me RAINBOW GANG')
 
 
 timerone = threading.Thread(target=GACHI_PRIDE)
