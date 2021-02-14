@@ -20,7 +20,6 @@ def information():
     # requests more information
     sendRaw('CAP REQ :twitch.tv/commands')
     sendRaw('CAP REQ :twitch.tv/tags')
-    # joins a channel
     
 
 def GACHI_PRIDE():
