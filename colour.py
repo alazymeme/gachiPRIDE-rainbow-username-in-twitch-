@@ -30,7 +30,7 @@ def GACHI_PRIDE():
         random_number = random.randint(0, 16777215)
         hex_number = str(hex(random_number))
         sendRaw('PRIVMSG #turtlelurk :/color  #' + hex_number[2:])
-        sendRaw('PRIVMSG #turtlelurk test')
+        sendRaw('PRIVMSG #turtoise :/me RAINBOW GANG')
 
 
 timerone = threading.Thread(target=GACHI_PRIDE)
@@ -43,7 +43,7 @@ def commands():
         print(chat)
 
         if "abc123" in chat:
-            sendRaw("PRIVMSG #turtlelurk TriHard")
+            sendRaw("PRIVMSG #turtoise TriHard")
 
         if "PING" in chat:
             sendRaw("PONG")  # This keeps the bot alive  when  twitch sends PING a bot needs to send PONG back.
