@@ -29,7 +29,7 @@ def GACHI_PRIDE():
         time.sleep(10)  # time delay in seconds # (keep within twitch ratelimits or you will be global banned for about 30mins)
         random_number = random.randint(0, 16777215)
         hex_number = str(hex(random_number))
-        sendRaw('PRIVMSG #turtlelurk :/color  #' + hex_number[2:])
+        sendRaw('PRIVMSG #turtoise :/color  #' + hex_number[2:])
         sendRaw('PRIVMSG #turtoise :/me RAINBOW GANG')
 
 
