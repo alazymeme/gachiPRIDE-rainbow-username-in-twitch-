@@ -15,7 +15,7 @@ def sendRaw(data):
     sock.send(bytes(data + '\r\n', 'utf-8')) # enables you to communicate to the irc server
 
 def information():
-    sendRaw('PASS oauth:wnscnfzb3n4s0m6rk3eq3vj6vwxips')  # oauth https://twitchapps.com/tmi/
+    sendRaw('PASS oauth:')  # oauth https://twitchapps.com/tmi/
     sendRaw('NICK turtoise')  # nickname
     # requests more information
     sendRaw('CAP REQ :twitch.tv/commands')
